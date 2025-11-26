@@ -1,9 +1,3 @@
-# ======================================================
-# 💼 DAY 5: AI SALES DEVELOPMENT REP (SDR)
-# 👨‍⚕️ "Dr. Abhishek Store" - Auto-Lead Capture Agent
-# 🚀 Features: FAQ Retrieval, Lead Qualification, JSON Database
-# ======================================================
-
 import logging
 import json
 import os
@@ -13,8 +7,6 @@ from typing import Annotated, Literal, Optional, List
 from dataclasses import dataclass, asdict
 
 print("\n" + "💼" * 50)
-print("🚀 AI SDR AGENT - DAY 5 TUTORIAL")
-print("📚 SELLING: Dr. Abhishek's Cloud & AI Courses")
 print("💡 agent.py LOADED SUCCESSFULLY!")
 print("💼" * 50 + "\n")
 
@@ -58,7 +50,7 @@ DEFAULT_FAQ = [
     },
     {
         "question": "Do you offer free content?",
-        "answer": "Yes! Dr. Abhishek releases weekly tutorials on YouTube for free. The paid courses offer deep-dives, code reviews, and certification."
+        "answer": "The paid courses offer deep-dives, code reviews, and certification."
     },
     {
         "question": "Do you do corporate consulting?",

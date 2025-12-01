@@ -13,8 +13,8 @@ const SessionContext = createContext<{
 }>({
   appConfig: APP_CONFIG_DEFAULTS,
   isSessionActive: false,
-  startSession: () => {},
-  endSession: () => {},
+  startSession: () => { },
+  endSession: () => { },
 });
 
 interface SessionProviderProps {
